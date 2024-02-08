@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
+html,
+body {
+    height: 843px;
+    width: 1317px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background: white;
+}
+
+.images {
+    margin-right: auto;
+    margin-top: 150px;
+}
+
+.img {
+    margin-left: 15px;
+}
+
+.images img {
+    height:691px;
+    width: 587px;
+    margin-bottom: 15px;
+    padding-left: 50px;
+    padding-top: 80px;
+}
+
+.img img {
+    height: 120px;
+    width: 120px;
+    margin-bottom: 15px;
+    padding-left: 32px;
+    cursor: pointer;
+   
+}
+
+
+p{
+    color: grey;
+}
+
+.price h2{
+  color: blue;
+}
+.off{
+    color: pink;
+    font-size: 15px;
+}
+.container,
+.container2 {
+    padding: 50px; 
+    
+}
+.container2{
+    font-size: large;
+    
+}
+.color-options {
+    display: flex;
+    gap: 10px;
+}
+
+.color-option {
+    width: 30px; 
+    height: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.color-option.selected {
+    border-width: 5px; 
+}
+
+.size input[type="radio"] {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 1px; 
+    width: 20px; 
+    height: 20px; 
+}
+
+.size label {
+    vertical-align: middle;
+    margin-right: 10px; 
+    font-size: smaller;
+}
+
+
+.quantity-and-cart {
+    display: flex;
+    align-items: center;
+}
+
+.add-to-cart {
+    background-color: #02367B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    padding-left: 30px;
+    margin-left: 40px;
+}
+
+
+.add-to-cart i {
+    margin-right: 5px; 
+}
+
+
+.quantity-input {
+    width: 70px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+}
+
+.quantity-input::-webkit-inner-spin-button,
+.quantity-input::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+}
+
+.quantity-input {
+    appearance: textfield;
+}
+
+.quantity button {
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+    border: none;
+    background-color: grey;
+    color: white;
+}
+
+.description{
+    color: grey;
+    font-size: 20px;
+    font-family: 'Roboto Mono';
+}

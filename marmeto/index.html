@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Coding Assessment L2 boilerplate</title>
+</head>
+<body>
+    <!-- Your code goes here -->
+    <div class="container">
+        <div class="images">
+            <img src="image1.jpg.png">
+        </div>
+        <div class="img">
+            <img src="image2.jpg.png">
+            <img src="image3.jpg.png">
+            <img src="image4.jpg.png">
+            <img src="image5.jpg.png">
+        </div>
+    </div>
+    <div class="container2">
+        <div class="content">
+            <p>Marmeto</p>
+            <h3>Embrace Sideboard</h3>
+            <hr>
+            <div class="price">
+                <h2>$12999.00 <span class="off">35% Off</span></h2>
+                <strike style="color: grey;">$19999.00</strike>
+                <br>
+                <hr>
+            </div>
+            <div class="color">
+                <p>Choose a Color</p>
+                <div class="color-options">
+                    <div class="color-option" style="background-color: red;"></div>
+                    <div class="color-option" style="background-color: blue;"></div>
+                    <div class="color-option" style="background-color: green;"></div>
+                    <div class="color-option" style="background-color: yellow;"></div>
+                </div>
+                <br>
+                <hr>
+            </div>
+            <div class="size">
+                <input type="radio" id="small" name="size" value="small">
+                <label for="small">Small</label>
+            
+                <input type="radio" id="medium" name="size" value="medium">
+                <label for="medium">Medium</label>
+            
+                <input type="radio" id="large" name="size" value="large">
+                <label for="large">Large</label>
+            
+                <input type="radio" id="extra-large" name="size" value="extra-large">
+                <label for="extra-large">Extra Large</label>
+            
+                <input type="radio" id="XXL" name="size" value="XXL">
+                <label for="XXL">XXL</label>
+            </div>
+            <br>
+            <div class="quantity-and-cart">
+                <div class="quantity">
+                    <button class="decrement">-</button>
+                    <input type="number" value="1" min="1" max="10" step="1" class="quantity-input">
+                    <button class="increment">+</button>
+                </div>
+                <button class="add-to-cart"><i class="fas fa-shopping-cart"></i> Add to Cart</button>
+            </div>
+            <br>
+            <hr>
+            <div class="description">
+                <p>The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection and look great, this storage solution is both functional and attractive. It fits seamlessly into any home decor, with clean lines and a timeless look. Crafted from premium materials for a combination of style, durability, and reliability.</p>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
